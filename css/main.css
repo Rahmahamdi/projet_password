@@ -9,7 +9,7 @@ body {
 font : 1.6rem 'Montserrat', sans-serif;
 margin : 0;
 line-height : 1.5;
-background-color : #787494;
+background-color : #ffffff;
 display : inline;
 }
 * {
@@ -37,7 +37,7 @@ color : rgb(255, 255, 255);
 :root {
 --primary-color-theme : #bd6868;
 --secondary-color-theme : #0a0a0ace;
---last-color-theme: #000000;
+--last-color-theme: #921616;
 --warning-theme: #ffffff;
 
 }
@@ -82,10 +82,11 @@ font-size: inherit;
 fieldset form input[type="text"],
 fieldset form input[type="date"],
 fieldset form input[type="tel"]{
-    border-bottom: solid .1rem #ccc;
+    border-bottom: solid .1rem #ccc;  
     transition-duration: 0.6s;
     padding: 0 .4rem;
     width: 35%;
+
     z-index: 2;
 }
 
@@ -94,11 +95,12 @@ fieldset form input[type="mail"]:focus
 fieldset form input[type="password"]:focus
 fieldset form input[type="text"]:focus{
     outline: none;
-    box-shadow: 0 0 2rem var(--warning-theme);
+    box-shadow: 0 0 2rem var(--warning-theme);          
     width: 35%;
-}
+}                                                   
 
-fieldset form [placeholder]{
+fieldset form [placeholder]{  
+         
     font-style: italic;
     background-color: rgba(217, 213, 213, 0.866);
 }
