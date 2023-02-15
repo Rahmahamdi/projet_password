@@ -37,7 +37,7 @@ color : rgb(0, 0, 0);
 :root {
 --primary-color-theme : #bd6868;
 --secondary-color-theme : #0a0a0ace;
---last-color-theme: #921616;
+--last-color-theme: #7b1f1f;
 --warning-theme: #ffffff;
 
 }
@@ -82,7 +82,7 @@ font-size: inherit;
 fieldset form input[type="text"],
 fieldset form input[type="date"],
 fieldset form input[type="tel"]{
-    border-bottom: solid .1rem #ccc;  
+    border-bottom: solid .1rem #ccc;
     transition-duration: 0.6s;
     padding: 0 .4rem;
     width: 35%;
